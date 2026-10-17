@@ -1,0 +1,23 @@
+Options -Indexes
+RewriteEngine On
+
+# Clean URLs
+RewriteRule ^$ index.php [L]
+RewriteRule ^login/?$ login.php [L]
+RewriteRule ^register/?$ register.php [L]
+RewriteRule ^logout/?$ logout.php [L]
+RewriteRule ^services/?$ services.php [L]
+RewriteRule ^add/?$ add.php [L]
+RewriteRule ^edit/?$ edit.php [L]
+RewriteRule ^delete/?$ delete.php [L]
+RewriteRule ^upgrade/?$ upgrade.php [L]
+RewriteRule ^help/?$ help.php [L]
+RewriteRule ^notifications/?$ notifications.php [L]
+RewriteRule ^onboarding/?$ onboarding.php [L]
+RewriteRule ^forgot-password/?$ forgot_password.php [L]
+RewriteRule ^password-reset/?$ password_reset.php [L]
+RewriteRule ^google-callback/?$ google_callback.php [L]
+RewriteRule ^app-download/?$ app_download.php [L]
+RewriteRule ^admin-notify/?$ admin_notify.php [L]
+RewriteRule ^admin-delete/?$ admin_delete.php [L]
+
